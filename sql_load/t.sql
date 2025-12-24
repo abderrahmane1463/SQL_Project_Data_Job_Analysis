@@ -203,3 +203,4 @@ where quarter1_job_posting.salary_year_avg > 70000 and
     quarter1_job_posting.job_title_short = 'Data Analyst'
 ORDER BY quarter1_job_posting.salary_year_avg DESC ;
 
+
