@@ -16,4 +16,4 @@ WHERE
     salary_year_avg is NOT NULL
 ORDER BY 
     salary_year_avg DESC
-LIMIT 10
+LIMIT 10 ;

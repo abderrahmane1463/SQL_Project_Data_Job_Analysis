@@ -22,7 +22,7 @@ skills
 from tob_paying_jobs
 INNER JOIN skills_job_dim on tob_paying_jobs.job_id = skills_job_dim.job_id
 INNER JOIN skills_dim on skills_job_dim.skill_id = skills_dim.skill_id
-ORDER BY salary_year_avg DESC
+ORDER BY salary_year_avg DESC ;
 
 /*
 🔍 Skill Frequency Insights
